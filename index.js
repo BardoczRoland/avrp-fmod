@@ -142,4 +142,4 @@ bot.on("ready", function() {
     console.log(`${bot.user.username} bot ${bot.guilds.size} szerveren online!`);
 });
 
-bot.login("NTk0OTA5Mjk4NjI3MzEzNzYy.XRjSgA.a1wCo72a4Vw2GCw6FCg5V4D2lNc");
+bot.login("process.env.BOT_TOKEN");
