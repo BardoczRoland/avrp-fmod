@@ -14,7 +14,7 @@ bot.on("message", async message => {
   const command = args.shift().toLowerCase();
 
   try {
-    let commandFile = require(`./commands/${command}.js`);
+    let commandFile = require(`./${command}.js`);
     commandFile.run(bot, message, args);
   } catch (err) {
   }
