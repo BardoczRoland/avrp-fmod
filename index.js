@@ -142,4 +142,4 @@ bot.on("ready", function() {
     console.log(`${bot.user.username} bot ${bot.guilds.size} szerveren online!`);
 });
 
-bot.login("process.env.BOT_TOKEN");
+bot.login(process.env.BOT_TOKEN);
